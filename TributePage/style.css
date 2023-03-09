@@ -1,0 +1,80 @@
+/* Define primary colors */
+:root {
+	--primary-color: #e91e62;
+	--secondary-color: #ffcdd2;
+	--light-gray: #f2f2f2;
+	--dark-gray: #333;
+}
+
+/* General Styles */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: var(--dark-gray);
+	background-color: var(--light-gray);
+}
+
+body {
+	background-color: white;
+	color: black;
+}
+
+
+a {
+	color: var(--primary-color);
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+
+/* Main */
+main {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 50px;
+}
+
+h2 {
+	font-size: 2.5rem;
+	font-weight: bold;
+	color: var(--primary-color);
+	margin-bottom: 20px;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+footer {
+	background-color: var(--primary-color);
+	padding: 10px;
+	text-align: center;
+	color: #fff;
+	font-size: 1.2rem;
+}
+
+footer p {
+	margin: 0;
+}
+
